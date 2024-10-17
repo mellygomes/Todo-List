@@ -2,7 +2,7 @@
     background: rgb(167, 241, 167);
     padding: 0.25rem 0.75rem;
     border: 1px solid white;
-    color: black;
+    border-radius: 0.3rem;
 }
 
 .Botao[tipo="primario"] {
@@ -10,5 +10,5 @@
 }
 
 .Botao[tipo="secundario"] {
-    background: plum;
+    background: rgb(221, 160, 176);
 }

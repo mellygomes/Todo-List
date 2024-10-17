@@ -6,7 +6,8 @@ const Botao = (props) => {
     const {texto, tipo=TIPO_BOTAO.PRIMARIO, ...outrasProps} = props
 
     return (
-        <button className={style.Botao} type={tipo} {...outrasProps}>
+        // eslint-disable-next-line react/no-unknown-property
+        <button className={style.Botao} tipo={tipo} {...outrasProps}>
             {texto}
         </button>
     )

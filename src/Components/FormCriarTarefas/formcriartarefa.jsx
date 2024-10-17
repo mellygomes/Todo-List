@@ -6,7 +6,6 @@ const FormCriarTarefa = () => {
         <form className={style.Form}>
             <CampoTexto/>
             <Botao texto="+"/>
-
         </form>
     )
 }
