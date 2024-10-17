@@ -1,0 +1,22 @@
+:root {
+  --light-purple-blue: #dce4f7;
+  --gray: #e4e4e4;
+  --dark-gray: rgb(66, 66, 66);;
+  --light-black: #1e1e1e; 
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--light-black);
+}
+
+body, input, textarea, button {
+  font-size: 1rem;
+  font-family: sans-serif;
+}

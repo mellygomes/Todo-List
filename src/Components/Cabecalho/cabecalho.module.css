@@ -1,0 +1,14 @@
+.Cabecalho {
+    background-color: rgb(25, 25, 25);
+    color: var(--light-purple-blue);
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.Cabecalho h1 {
+    font-size: 1.5rem;
+}
+
+.Cabecalho h1 span {
+    color: plum;
+}
