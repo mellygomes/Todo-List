@@ -1,16 +1,15 @@
 import './App.css'
-import { Cabecalho } from './Components'
-import { Conteudo } from './Components'
-import { Rodape } from './Components'
+import { Cabecalho, Conteudo, Rodape } from './Components'
+import { Inicial } from './Pages'
 
 function App() {
 
   return (
     <>
       <Cabecalho nomeUsuario="Joao"/>
-      <Conteudo>
-        <p>texto texto</p> 
-      </Conteudo>
+        <Conteudo>
+          <Inicial/>
+        </Conteudo>
       <Rodape criador="mellygomes"/>
     </>
   )

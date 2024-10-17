@@ -1,0 +1,7 @@
+.CampoTexto {
+    background-color: rgb(69, 69, 69);
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    padding: 0.25rem 0.75rem;
+    width: 25rem;
+}

@@ -1,0 +1,14 @@
+.Botao {
+    background: rgb(167, 241, 167);
+    padding: 0.25rem 0.75rem;
+    border: 1px solid white;
+    color: black;
+}
+
+.Botao[tipo="primario"] {
+    background: rgb(167, 241, 167);
+}
+
+.Botao[tipo="secundario"] {
+    background: plum;
+}
